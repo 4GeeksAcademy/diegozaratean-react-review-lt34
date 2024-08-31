@@ -7,7 +7,8 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
+import Cart from "./component/cart.jsx";
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
+ReactDOM.createRoot(document.getElementById('app')).render(<Cart total={1}/>);
 
