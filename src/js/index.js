@@ -12,6 +12,8 @@ import Form from "./component/form.jsx";
 import Frutas from "./component/frutas.jsx";
 import Onsubmit from "./component/onsubmit.jsx";
 import Onkeydown from "./component/onkeydown.jsx";
+import Counter from "./component/counter.jsx";
+import Getdata from "./component/getdata.jsx";
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Onsubmit total={1}/>);
+ReactDOM.createRoot(document.getElementById('app')).render(<Getdata total={1}/>);
 
