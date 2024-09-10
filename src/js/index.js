@@ -14,6 +14,7 @@ import Onsubmit from "./component/onsubmit.jsx";
 import Onkeydown from "./component/onkeydown.jsx";
 import Counter from "./component/counter.jsx";
 import Getdata from "./component/getdata.jsx";
+import Test from "./component/test.jsx";
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Getdata total={1}/>);
+ReactDOM.createRoot(document.getElementById('app')).render(<Test total={1}/>);
 
